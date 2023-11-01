@@ -21,36 +21,33 @@ const Header = () => {
   } = CartState();
 
   return (
-    <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
+    <Navbar className="navtag" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/">Shopping Cart</Link>
+          <Link to="/" className="logoname">
+            Labtron
+          </Link>
         </Navbar.Brand>
-        {useLocation().pathname.split("/")[1] !== "cart" && (
-          <Navbar.Text className="search">
-            <FormControl
-              style={{ width: 500 }}
-              type="search"
-              placeholder="Search a product..."
-              className="m-auto"
-              aria-label="Search"
-              onChange={(e) => {
-                productDispatch({
-                  type: "FILTER_BY_SEARCH",
-                  payload: e.target.value,
-                });
-              }}
-            />
-          </Navbar.Text>
-        )}
+        <Navbar.Text className="search">
+          <FormControl
+            style={{ width: 500 }}
+            placeholder="Search for a product"
+            className="m-auto"
+            onChange={(e) => {
+              productDispatch({
+                type: "FILTER_BY_SEARCH",
+                payload: e.target.value,
+              });
+            }}
+          ></FormControl>
+        </Navbar.Text>
         <Nav>
-          <Dropdown alignRight>
-            <Dropdown.Toggle variant="success">
+          <Dropdown>
+            <Dropdown.Toggle variant="primary">
               <FaShoppingCart color="white" fontSize="25px" />
               <Badge>{cart.length}</Badge>
             </Dropdown.Toggle>
-
-            <Dropdown.Menu style={{ minWidth: 370 }}>
+            <Dropdown.Menu className="dropdown-menu" style={{ minWidth: 250 }}>
               {cart.length > 0 ? (
                 <>
                   {cart.map((prod) => (

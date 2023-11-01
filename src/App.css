@@ -1,8 +1,3 @@
-a {
-  text-decoration: none !important;
-  color: inherit !important;
-}
-
 /* Scroll bar */
 body::-webkit-scrollbar {
   width: 5px;
@@ -14,4 +9,21 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.navtag {
+  background-color: #0e849c;
+}
+.logoname {
+  color: aliceblue !important;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn .badge {
+  background: none !important;
+  top: 0 !important;
 }

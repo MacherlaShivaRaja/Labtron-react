@@ -36,7 +36,7 @@
 }
 
 .filters {
-  background-color: #343a40;
+  background-color: #186979;
   color: white;
   padding: 20px;
   display: flex;
@@ -51,7 +51,7 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .productContainer {
@@ -71,6 +71,9 @@
   width: 30%;
 }
 
+.dropdown-menu {
+  left: -200px !important;
+}
 /* Media Queries */
 @media (max-width: 771px) {
   .filters {
@@ -99,4 +102,41 @@
   .products {
     width: 100%;
   }
+}
+
+.container {
+  margin-top: 10px;
+  text-align: center;
+}
+.h2-head {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.card-content {
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.card-content img {
+  width: 200px;
+  height: 200px;
+}
+
+.imagecard {
+  text-align: center;
+  max-width: 200px;
+  max-height: 200px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.card {
+  display: flex;
+  align-items: center !important;
 }

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
+import Sliders from "./components/Sliders";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Cart />
         </Route>
       </div>
+      <Sliders />
     </BrowserRouter>
   );
 }

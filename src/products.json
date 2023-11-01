@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "name": "Air Permeability Tester",
+    "price": "319.99",
+    "image": "./p1.png",
+    "inStock": 5,
+    "fastDelivery": true,
+    "ratings": 4
+  },
+  {
+    "id": "2",
+    "name": "Airborne Particle Counters",
+    "price": "124.99",
+    "image": "./p2.png",
+    "inStock": 3,
+    "fastDelivery": false,
+    "ratings": 5
+  },
+  {
+    "id": "3",
+    "name": "Salt Fog Chamber",
+    "price": "299.99",
+    "image": "./p3.png",
+    "inStock": 7,
+    "fastDelivery": true,
+    "ratings": 3
+  },
+  {
+    "id": "4",
+    "name": "Salt Spray Chamber",
+    "price": "149.99",
+    "image": "./p9.png",
+    "inStock": 10,
+    "fastDelivery": true,
+    "ratings": 2
+  },
+  {
+    "id": "5",
+    "name": "Corrosion Test Chamber",
+    "price": "199.99",
+    "image": "./p5.png",
+    "inStock": 8,
+    "fastDelivery": false,
+    "ratings": 5
+  },
+  {
+    "id": "6",
+    "name": "Salt Corrosion Chamber",
+    "price": "479.99",
+    "image": "./p6.png",
+    "inStock": 4,
+    "fastDelivery": true,
+    "ratings": 1
+  },
+  {
+    "id": "7",
+    "name": "Environmental Chamber",
+    "price": "154.99",
+    "image": "./p7.png",
+    "inStock": 2,
+    "fastDelivery": false,
+    "ratings": 3
+  },
+  {
+    "id": "8",
+    "name": "Cyclic Corrosion Chamber",
+    "price": "249.29",
+    "image": "./p8.png",
+    "inStock": 6,
+    "fastDelivery": true,
+    "ratings": 4
+  },
+  {
+    "id": "9",
+    "name": "Fluorescence Analyzer",
+    "price": "289.99",
+    "image": "./p9.png",
+    "inStock": 12,
+    "fastDelivery": true,
+    "ratings": 5
+  },
+  {
+    "id": "10",
+    "name": "Coagulation Analyzer",
+    "price": "179.99",
+    "image": "./p1.png",
+    "inStock": 6,
+    "fastDelivery": true,
+    "ratings": 4
+  },
+  {
+    "id": "11",
+    "name": "Chemistry Analyzer",
+    "price": "369.99",
+    "image": "./p2.png",
+    "inStock": 3,
+    "fastDelivery": false,
+    "ratings": 4
+  },
+  {
+    "id": "12",
+    "name": "Air Cooled Chillers",
+    "price": "129.99",
+    "image": "./p3.png",
+    "inStock": 9,
+    "fastDelivery": true,
+    "ratings": 5
+  },
+  {
+    "id": "13",
+    "name": "Haze meter NHM-101",
+    "price": "239.99",
+    "image": "./p5.png",
+    "inStock": 7,
+    "fastDelivery": true,
+    "ratings": 4
+  },
+  {
+    "id": "14",
+    "name": "Melt Flow Indexer",
+    "price": "544.99",
+    "image": "./p6.png",
+    "inStock": 1,
+    "fastDelivery": false,
+    "ratings": 3
+  },
+  {
+    "id": "15",
+    "name": "CASS Chamber",
+    "price": "169.99",
+    "image": "./p7.png",
+    "inStock": 5,
+    "fastDelivery": true,
+    "ratings": 4
+  }
+]
